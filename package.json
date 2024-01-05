@@ -5,6 +5,7 @@
   "main": "./index.js",
   "types": "./index.d.ts",
   "scripts": {
+    "NODE_OPTIONS": "--openssl-legacy-providerr",
     "_clean": "rimraf dist",
     "_transpile": "tsc",
     "_bundle": "webpack",
